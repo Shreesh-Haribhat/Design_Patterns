@@ -13,13 +13,10 @@ Steps to Make Singletin class
 
 public class DbConnection {
     static DbConnection instance = null;
-
     String host;
     String password;
     String userName;
-
     private DbConnection(){};
-
     public static DbConnection getDbConnection()
     {
         if(instance == null)
@@ -28,5 +25,4 @@ public class DbConnection {
         }
         return instance;
     }
-
 }

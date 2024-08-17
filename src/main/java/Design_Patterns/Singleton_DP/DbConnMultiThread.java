@@ -7,15 +7,11 @@ we can make use of Double Check Lock
 1. It will take the lock only once while creating the object from the next check it will exit just after checking if (instance == null)
 */
 public class DbConnMultiThread {
-
     public static DbConnMultiThread instance = null;
-
     String url;
     String password;
     String userName;
-
     private DbConnMultiThread(){};
-
     public static DbConnMultiThread getDbConnection()
     {
         if(instance == null)
@@ -27,7 +23,6 @@ public class DbConnMultiThread {
                 }
             }
         }
-
         return instance;
     }
 }
