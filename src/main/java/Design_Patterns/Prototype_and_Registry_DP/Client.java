@@ -33,7 +33,7 @@ public class Client {
         shreesh_haribat.setAge(25);
 
 
-        //System.out.println(shreesh);
+        System.out.println(shreesh);
         System.out.println(shreesh_haribat);
     }
 }
