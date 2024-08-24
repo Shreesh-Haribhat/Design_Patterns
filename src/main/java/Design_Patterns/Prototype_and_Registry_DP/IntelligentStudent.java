@@ -29,4 +29,5 @@ public class IntelligentStudent extends Student{
         return new IntelligentStudent(this);
     }
 
+
 }

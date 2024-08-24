@@ -11,7 +11,7 @@ public class Client {
 
         IntelligentStudent intelligentStudent_prototype = new IntelligentStudent();
         intelligentStudent_prototype.setIq(143);
-        intelligentStudent_prototype.setBatch("Loude ke baal");
+        intelligentStudent_prototype.setBatch(" DSML ");
         intelligentStudent_prototype.setAvgBatchPsp(98.23);
 
         studentRegistry.register("Intelligent Batch",intelligentStudent_prototype);
