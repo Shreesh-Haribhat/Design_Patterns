@@ -93,7 +93,7 @@ public class Student {
         public Student build() throws IllegalAccessException {
             if(this.getAge() < 21)
             {
-                throw new IllegalAccessException("<-- Loude ke Baal  --> ");
+                throw new IllegalAccessException("<-- Exception  --> ");
             }
             return new Student(this);
         }
